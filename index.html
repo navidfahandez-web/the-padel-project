@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Padel Project — Premium Padel Club, Musaffah, Abu Dhabi</title>
+<meta name="description" content="The Padel Project is Abu Dhabi's premium padel & social club in Musaffah — 6 indoor superpanoramic courts, a padel-specific gym, ice baths, coaching academies and a coffee shop. Book a court or lesson today." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="font-sans">
+
+<!-- NAV -->
+<header id="siteNav" class="fixed top-0 inset-x-0 z-50">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 flex items-center justify-between h-20">
+    <a href="#home" class="flex items-center gap-3 md:gap-4">
+      <img src="assets/img/tpp-logo-gold.png" alt="The Padel Project" class="h-11 md:h-12 w-auto" />
+      <span class="hidden sm:block w-px h-8" style="background: var(--green-line);"></span>
+      <span class="hidden sm:flex items-center gap-2">
+        <span class="text-[0.6rem] leading-tight uppercase tracking-wider" style="color: var(--cream-mute);">Powered<br />by</span>
+        <img src="assets/img/padel-beast-logo-white.png" alt="Padel Beast" class="h-7 md:h-8 w-auto opacity-90" />
+      </span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-8">
+      <a href="#about" class="nav-link">Club</a>
+      <a href="#facilities" class="nav-link">Facilities</a>
+      <a href="#book" class="nav-link">Book</a>
+      <a href="#coaches" class="nav-link">Coaches</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#reviews" class="nav-link">Reviews</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="hidden lg:flex items-center gap-3">
+      <a href="https://wa.me/971567578646?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson%20at%20The%20Padel%20Project" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Book a Lesson</a>
+      <a href="https://playtomic.com/clubs/the-padel-project" target="_blank" rel="noopener" class="btn btn-gold btn-sm">Book a Court</a>
+    </div>
+
+    <button id="menuBtn" aria-expanded="false" aria-label="Toggle menu" class="lg:hidden text-cream p-2 -mr-2">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+
+  <div id="mobileMenu" class="lg:hidden overflow-hidden max-h-0 opacity-0" style="background: rgba(13,23,16,0.98); border-top: 1px solid var(--green-line);">
+    <div class="flex flex-col px-5 py-6 gap-5">
+      <a href="#about" class="nav-link text-base">Club</a>
+      <a href="#facilities" class="nav-link text-base">Facilities</a>
+      <a href="#book" class="nav-link text-base">Book</a>
+      <a href="#coaches" class="nav-link text-base">Coaches</a>
+      <a href="#location" class="nav-link text-base">Location</a>
+      <a href="#reviews" class="nav-link text-base">Reviews</a>
+      <a href="#contact" class="nav-link text-base">Contact</a>
+      <div class="flex flex-col gap-3 pt-3">
+        <a href="https://wa.me/971567578646?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson%20at%20The%20Padel%20Project" target="_blank" rel="noopener" class="btn btn-outline justify-center">Book a Lesson</a>
+        <a href="https://playtomic.com/clubs/the-padel-project" target="_blank" rel="noopener" class="btn btn-gold justify-center">Book a Court</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="relative min-h-[100vh] flex items-end overflow-hidden">
+  <img src="assets/img/hero-group-photos-5.jpg" alt="Players and community at The Padel Project, Musaffah, Abu Dhabi" class="absolute inset-0 w-full h-full object-cover object-[50%_25%]" />
+  <div class="absolute inset-0" style="background: linear-gradient(to top, var(--green-950) 5%, rgba(13,23,16,0.75) 45%, rgba(13,23,16,0.25) 75%);"></div>
+  <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(13,23,16,0.75), rgba(13,23,16,0.05) 60%);"></div>
+
+  <div class="relative max-w-7xl mx-auto px-5 md:px-8 pb-20 md:pb-28 pt-40 w-full">
+    <p class="kicker mb-5">Musaffah · Abu Dhabi, UAE</p>
+    <h1 class="font-script text-6xl sm:text-8xl md:text-9xl leading-[0.9]" style="color: var(--cream);">The Padel<br class="hidden sm:block" /> Project</h1>
+    <p class="text-cream-soft text-base md:text-lg max-w-xl mt-6 leading-relaxed" style="color: var(--cream-soft);">A vibrant padel &amp; social club built around a strong, welcoming community — six superpanoramic courts, a padel-specific gym, ice baths and a coffee shop, open every day of the week.</p>
+    <div class="flex flex-wrap gap-4 mt-9">
+      <a href="https://playtomic.com/clubs/the-padel-project" target="_blank" rel="noopener" class="btn btn-gold">Book a Court</a>
+      <a href="https://wa.me/971567578646?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson%20at%20The%20Padel%20Project" target="_blank" rel="noopener" class="btn btn-outline">Book a Lesson</a>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-10 gap-y-3 mt-14" style="color: var(--cream-soft);">
+      <div><span class="font-serif text-3xl" style="color: var(--gold-soft);">6</span> <span class="text-sm">indoor superpanoramic courts</span></div>
+      <div class="w-px h-8" style="background: var(--green-line);"></div>
+      <div><span class="font-serif text-3xl" style="color: var(--gold-soft);">09:00–00:00</span> <span class="text-sm">open daily</span></div>
+      <div class="w-px h-8 hidden sm:block" style="background: var(--green-line);"></div>
+      <div class="hidden sm:block"><span class="font-serif text-3xl" style="color: var(--gold-soft);">5</span> <span class="text-sm">professional coaches</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="max-w-7xl mx-auto px-5 md:px-8 py-24 md:py-32 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+  <div class="reveal">
+    <p class="kicker mb-4">The club</p>
+    <h2 class="section-title text-4xl md:text-5xl mb-6" style="color: var(--cream);">Padel, performance<br /><em class="font-script text-5xl md:text-6xl not-italic" style="color: var(--gold-soft);">&amp; community.</em></h2>
+    <p class="leading-relaxed mb-5" style="color: var(--cream-soft);">The Padel Project is Musaffah's flagship padel destination — six premium indoor superpanoramic courts, a rooftop lounge with a games area, a relax patio and prayer room, plus <a href="https://instagram.com/amongcafe" target="_blank" rel="noopener" class="underline" style="color: var(--gold-soft);">Among the Stars</a> serving food and drinks from our in-house coffee shop.</p>
+    <p class="leading-relaxed mb-8" style="color: var(--cream-soft);">Since Padel Beast took over day-to-day management, occupancy and player engagement have grown exponentially — this is where the community started, and where it keeps growing, one match at a time.</p>
+    <div class="grid grid-cols-2 gap-5">
+      <div>
+        <p class="font-serif text-4xl" style="color: var(--gold-soft);">2</p>
+        <p class="text-xs mt-1" style="color: var(--cream-mute);">Private courts available</p>
+      </div>
+      <div>
+        <p class="font-serif text-4xl" style="color: var(--gold-soft);">7</p>
+        <p class="text-xs mt-1" style="color: var(--cream-mute);">Days a week, open till midnight</p>
+      </div>
+    </div>
+  </div>
+  <div class="relative reveal">
+    <img src="assets/img/venue-tpp-courts.jpg" alt="The Padel Project indoor superpanoramic courts, Musaffah" class="rounded-2xl w-full aspect-[4/5] object-cover object-bottom" style="box-shadow: var(--shadow-lg);" />
+    <div class="absolute -bottom-6 -left-6 hidden sm:block px-6 py-5 rounded-2xl card" style="box-shadow: var(--shadow-lg);">
+      <p class="font-script text-2xl" style="color: var(--gold-soft);">Est. community club</p>
+      <p class="text-xs mt-1" style="color: var(--cream-mute);">Managed by Padel Beast</p>
+    </div>
+  </div>
+</section>
+
+<!-- FACILITIES -->
+<section id="facilities" class="py-24 md:py-32" style="background: var(--green-900); border-top: 1px solid var(--green-line); border-bottom: 1px solid var(--green-line);">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="max-w-xl mb-16 reveal">
+      <p class="kicker mb-4">Facilities</p>
+      <h2 class="section-title text-4xl md:text-5xl" style="color: var(--cream);">Everything you need, on and off the court.</h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-16">
+      <div class="card p-7 reveal">
+        <div class="icon-badge mb-5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="3" x2="12" y2="21"/></svg></div>
+        <h3 class="font-serif text-xl mb-2" style="color: var(--cream);">6 indoor superpanoramic courts</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">Courts 1–4 standard, Court 5 configurable and Court 6 fully private — climate-controlled year-round.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge mb-5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 4v6a6 6 0 0 0 12 0V4"/><line x1="4" y1="4" x2="20" y2="4"/><line x1="8" y1="20" x2="16" y2="20"/><line x1="12" y1="16" x2="12" y2="20"/></svg></div>
+        <h3 class="font-serif text-xl mb-2" style="color: var(--cream);">Padel-specific gym</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">A dedicated fitness coach and performance programming built around padel movement.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge mb-5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3v8M11 3v8M7 7h4M4 11h14a1 1 0 0 1 1 1v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-2a1 1 0 0 1 1-1Z"/></svg></div>
+        <h3 class="font-serif text-xl mb-2" style="color: var(--cream);">Ice bath recovery</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">Post-match recovery on site, right beside the courts.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge mb-5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h13a3 3 0 0 1 0 6h-1M4 7v7a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-2"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="9" y1="2" x2="9" y2="4"/></svg></div>
+        <h3 class="font-serif text-xl mb-2" style="color: var(--cream);">Among the Stars coffee shop</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">Healthy, tasty food and drinks in-house — check <a href="https://instagram.com/amongcafe" target="_blank" rel="noopener" class="underline" style="color: var(--gold-soft);">@amongcafe</a> for the menu.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge mb-5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h18M3 12a9 9 0 0 1 18 0M3 12a9 9 0 0 0 18 0"/></svg></div>
+        <h3 class="font-serif text-xl mb-2" style="color: var(--cream);">Rooftop lounge</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">Games area, relax patio and prayer room above the courts.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge mb-5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3 class="font-serif text-xl mb-2" style="color: var(--cream);">Free &amp; private parking</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">Plus changing rooms, lockers, WiFi and disabled access throughout.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-8 gap-y-3 reveal">
+      <span class="text-xs uppercase tracking-widest" style="color: var(--cream-mute);">Also on site</span>
+      <span class="text-sm" style="color: var(--cream-soft);">Pro shop, managed by Padel Outlet — the latest racket models</span>
+      <span class="w-1 h-1 rounded-full" style="background: var(--gold);"></span>
+      <span class="text-sm" style="color: var(--cream-soft);">Equipment rental</span>
+      <span class="w-1 h-1 rounded-full" style="background: var(--gold);"></span>
+      <span class="text-sm" style="color: var(--cream-soft);">Matchmaking &amp; social events</span>
+    </div>
+  </div>
+</section>
+
+<!-- BOOK -->
+<section id="book" class="max-w-7xl mx-auto px-5 md:px-8 py-24 md:py-32">
+  <div class="max-w-xl mb-16 reveal">
+    <p class="kicker mb-4">Book</p>
+    <h2 class="section-title text-4xl md:text-5xl" style="color: var(--cream);">Reserve your court, or start lessons.</h2>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card p-9 md:p-11 reveal">
+      <div class="icon-badge mb-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="17" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+      <h3 class="font-serif text-2xl mb-3" style="color: var(--cream);">Book a court</h3>
+      <p class="leading-relaxed mb-7" style="color: var(--cream-soft);">Check live availability and reserve any of our six courts directly through Playtomic — our official booking partner.</p>
+      <a href="https://playtomic.com/clubs/the-padel-project" target="_blank" rel="noopener" class="btn btn-gold">Book on Playtomic</a>
+    </div>
+    <div class="card p-9 md:p-11 reveal">
+      <div class="icon-badge mb-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+      <h3 class="font-serif text-2xl mb-3" style="color: var(--cream);">Book a lesson</h3>
+      <p class="leading-relaxed mb-7" style="color: var(--cream-soft);">Private and group coaching with our academy team — men's, ladies' and kids' pathways, plus matchmaking so you always play at your level.</p>
+      <a href="https://wa.me/971567578646?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson%20at%20The%20Padel%20Project" target="_blank" rel="noopener" class="btn btn-whatsapp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.83L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.13h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.79 14.03c-.24.68-1.19 1.28-1.94 1.44-.53.11-1.22.2-3.56-.73-2.98-1.19-4.89-4.2-5.05-4.4-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.58-.37.78-.37.2 0 .39.002.56.01.18.008.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.24.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.08.13.08.75-.16 1.43Z"/></svg>WhatsApp for lessons</a>
+    </div>
+  </div>
+</section>
+
+<!-- COACHES -->
+<section id="coaches" class="py-24 md:py-32" style="background: var(--green-900); border-top: 1px solid var(--green-line); border-bottom: 1px solid var(--green-line);">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="max-w-xl mb-16 reveal">
+      <p class="kicker mb-4">Coaches &amp; team</p>
+      <h2 class="section-title text-4xl md:text-5xl" style="color: var(--cream);">The people who run your game.</h2>
+      <p class="mt-5 leading-relaxed" style="color: var(--cream-soft);">Five internationally certified coaches — including two dedicated to our Ladies Academy — plus the general manager who keeps The Padel Project running day to day.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-miras.jpg" alt="Miras, General Manager at The Padel Project" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Miras</h3>
+          <p class="text-sm mt-1" style="color: var(--gold-soft);">General Manager</p>
+        </div>
+      </div>
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-bernardo.jpg" alt="Bernardo Konzen, Academy Manager" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Bernardo Konzen</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇧🇷</span><span>Academy Manager</span></p>
+        </div>
+      </div>
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-marc.jpg" alt="Marc Llompart, Kids Academy Manager" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Marc Llompart</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇪🇸</span><span>Kids Academy Manager</span></p>
+        </div>
+      </div>
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-iris.jpg" alt="Iris Donate, Ladies Academy Coach" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Iris Donate</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇪🇸</span><span>Ladies Academy Coach</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-6 mt-6 max-w-2xl">
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-cris.jpg" alt="Cris Musial, Ladies Academy Coach" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Cris Musial</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇪🇸</span><span>Ladies Academy Coach</span></p>
+        </div>
+      </div>
+      <div class="card p-7 flex flex-col justify-center reveal">
+        <p class="text-xs uppercase tracking-widest mb-2" style="color: var(--cream-mute);">Academies</p>
+        <p class="leading-relaxed text-sm" style="color: var(--cream-soft);">Men's, Ladies' and Kids' pathways from first swing to competitive play, run by <a href="https://thepadelbeast.com" target="_blank" rel="noopener" class="underline" style="color: var(--gold-soft);">Padel Beast</a>.</p>
+      </div>
+    </div>
+
+    <div class="max-w-xl mt-20 mb-10 reveal">
+      <p class="kicker mb-3">Front of house</p>
+      <h3 class="section-title text-2xl md:text-3xl" style="color: var(--cream);">The team that greets you at the door.</h3>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-fahad.jpg" alt="Fahad, Reception" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Fahad</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇮🇳</span><span>Reception</span></p>
+        </div>
+      </div>
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-mohaifa.jpg" alt="Mohaifa, Head of Reception" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Mohaifa</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇵🇭</span><span>Head of Reception</span></p>
+        </div>
+      </div>
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-hassan.jpg" alt="Hassan, Matchmaking" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Hassan</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇧🇩</span><span>Matchmaking</span></p>
+        </div>
+      </div>
+      <div class="card overflow-hidden reveal">
+        <img src="assets/img/team-cleaners.jpg" alt="Rose and Ana, Housekeeping" class="w-full aspect-square object-cover object-top" />
+        <div class="p-6">
+          <h3 class="font-serif text-xl" style="color: var(--cream);">Rose &amp; Ana</h3>
+          <p class="text-sm mt-1 flex items-center gap-1.5" style="color: var(--gold-soft);"><span>🇵🇭</span><span>Housekeeping</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location" class="max-w-7xl mx-auto px-5 md:px-8 py-24 md:py-32">
+  <div class="grid lg:grid-cols-2 gap-12 md:gap-16 items-center">
+    <div class="reveal">
+      <p class="kicker mb-4">Location &amp; directions</p>
+      <h2 class="section-title text-4xl md:text-5xl mb-8" style="color: var(--cream);">Find us in Musaffah.</h2>
+
+      <div class="space-y-5 mb-9">
+        <div class="flex items-start gap-4">
+          <div class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <p class="font-semibold" style="color: var(--cream);">Address</p>
+            <p class="text-sm mt-0.5" style="color: var(--cream-soft);">The Padel Project, Musaffah M-45, Abu Dhabi, UAE</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div>
+            <p class="font-semibold" style="color: var(--cream);">Opening hours</p>
+            <p class="text-sm mt-0.5" style="color: var(--cream-soft);">Open daily, 09:00 – midnight</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+          <div>
+            <p class="font-semibold" style="color: var(--cream);">Parking</p>
+            <p class="text-sm mt-0.5" style="color: var(--cream-soft);">Free and private parking on site</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://maps.app.goo.gl/4qeAhD4eZgzNvr9m8" target="_blank" rel="noopener" class="btn btn-gold">Get Directions</a>
+    </div>
+
+    <div class="reveal rounded-2xl overflow-hidden" style="box-shadow: var(--shadow-lg); border: 1px solid var(--green-line);">
+      <iframe
+        title="Map to The Padel Project, Musaffah, Abu Dhabi"
+        class="map-frame"
+        width="100%" height="440" style="border:0; display:block;"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=The+Padel+Project+Musaffah+M45+Abu+Dhabi&output=embed">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="py-24 md:py-32" style="background: var(--green-900); border-top: 1px solid var(--green-line); border-bottom: 1px solid var(--green-line);">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-16 reveal">
+      <div>
+        <p class="kicker mb-4">Reviews</p>
+        <h2 class="section-title text-4xl md:text-5xl" style="color: var(--cream);">What players are saying.</h2>
+      </div>
+      <a href="https://maps.app.goo.gl/4qeAhD4eZgzNvr9m8" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-semibold" style="color: var(--gold-soft);">
+        <span>★ 4.9 · 120 Google reviews — read them all</span>
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-8 reveal">
+        <p class="star tracking-wider mb-4">★★★★★</p>
+        <p class="text-sm leading-relaxed mb-6" style="color: var(--cream-soft);">"Absolutely love this place! The padel courts are top-notch — well-maintained, spacious, and perfect for both casual games and competitive matches. Great atmosphere, clean facilities, and a real sense of community."</p>
+        <p class="font-semibold text-sm" style="color: var(--cream);">Raeez Hameed Abdulla</p>
+        <p class="text-xs mt-0.5" style="color: var(--cream-mute);">Local Guide · Google Reviews</p>
+      </div>
+      <div class="card p-8 reveal">
+        <p class="star tracking-wider mb-4">★★★★★</p>
+        <p class="text-sm leading-relaxed mb-6" style="color: var(--cream-soft);">"The exceptional quality of its coaching team truly stands out. I've been training for years now, and they're highly skilled, professional, and genuinely wonderful people who make every session enjoyable."</p>
+        <p class="font-semibold text-sm" style="color: var(--cream);">SMR</p>
+        <p class="text-xs mt-0.5" style="color: var(--cream-mute);">Local Guide · Google Reviews</p>
+      </div>
+      <div class="card p-8 reveal">
+        <p class="star tracking-wider mb-4">★★★★★</p>
+        <p class="text-sm leading-relaxed mb-6" style="color: var(--cream-soft);">"If any other companies want to benchmark what a good padel place should look like, then this is what they need to gauge against! You guys are phenomenal! Keep it up."</p>
+        <p class="font-semibold text-sm" style="color: var(--cream);">Ahsen Monir</p>
+        <p class="text-xs mt-0.5" style="color: var(--cream-mute);">Local Guide · Google Reviews</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="max-w-7xl mx-auto px-5 md:px-8 py-24 md:py-32">
+  <div class="grid md:grid-cols-2 gap-12 md:gap-16">
+    <div class="reveal">
+      <p class="kicker mb-4">Contact</p>
+      <h2 class="section-title text-4xl md:text-5xl mb-6" style="color: var(--cream);">Get in touch.</h2>
+      <p class="leading-relaxed mb-9" style="color: var(--cream-soft);">Fastest way to reach us is WhatsApp — for bookings, lessons, events or general questions.</p>
+
+      <div class="grid sm:grid-cols-2 gap-4 mb-9">
+        <a href="https://wa.me/971567578646" target="_blank" rel="noopener" class="card p-6 flex items-start gap-4">
+          <span class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.83L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.13h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Z"/></svg></span>
+          <span><span class="block font-semibold" style="color: var(--cream);">WhatsApp</span><span class="text-sm" style="color: var(--cream-mute);">The Padel Project direct line</span></span>
+        </a>
+        <a href="https://instagram.com/thepadelproject.ae" target="_blank" rel="noopener" class="card p-6 flex items-start gap-4">
+          <span class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg></span>
+          <span><span class="block font-semibold" style="color: var(--cream);">Instagram</span><span class="text-sm" style="color: var(--cream-mute);">@thepadelproject.ae</span></span>
+        </a>
+        <a href="tel:+971508347098" class="card p-6 flex items-start gap-4">
+          <span class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span>
+          <span><span class="block font-semibold" style="color: var(--cream);">Padel Beast office</span><span class="text-sm" style="color: var(--cream-mute);">+971 50 834 7098</span></span>
+        </a>
+        <a href="mailto:thepadelbeast@gmail.com" class="card p-6 flex items-start gap-4">
+          <span class="icon-badge shrink-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span>
+          <span><span class="block font-semibold" style="color: var(--cream);">Email</span><span class="text-sm break-all" style="color: var(--cream-mute);">thepadelbeast@gmail.com</span></span>
+        </a>
+      </div>
+      <p class="text-xs" style="color: var(--cream-mute);">The Padel Project is managed by <a href="https://thepadelbeast.com" target="_blank" rel="noopener" class="underline" style="color: var(--gold-soft);">Padel Beast</a>.</p>
+    </div>
+
+    <div class="reveal">
+      <p class="kicker mb-4">Send a message</p>
+      <h3 class="font-serif text-2xl mb-6" style="color: var(--cream);">We'll get back to you fast.</h3>
+      <form id="contactForm" class="space-y-4">
+        <div>
+          <label class="block text-sm font-semibold mb-1.5" style="color: var(--cream-soft);" for="cf-name">Name</label>
+          <input id="cf-name" type="text" required class="field" />
+        </div>
+        <div>
+          <label class="block text-sm font-semibold mb-1.5" style="color: var(--cream-soft);" for="cf-topic">I'm interested in</label>
+          <select id="cf-topic" class="field">
+            <option>Booking a court</option>
+            <option>Booking a lesson / academy</option>
+            <option>Private events</option>
+            <option>Membership</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-semibold mb-1.5" style="color: var(--cream-soft);" for="cf-message">Message</label>
+          <textarea id="cf-message" rows="4" required class="field"></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold w-full sm:w-auto justify-center">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid var(--green-line); background: var(--green-950);">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <img src="assets/img/tpp-logo-gold.png" alt="The Padel Project" class="h-16 w-auto mb-4" />
+      <p class="text-sm leading-relaxed" style="color: var(--cream-mute);">Musaffah M-45, Abu Dhabi, UAE.<br />Open daily, 09:00 – midnight.</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest mb-4" style="color: var(--cream-mute);">Explore</p>
+      <div class="flex flex-col gap-2 text-sm" style="color: var(--cream-soft);">
+        <a href="#about" class="hover:underline">The club</a>
+        <a href="#facilities" class="hover:underline">Facilities</a>
+        <a href="#coaches" class="hover:underline">Coaches</a>
+        <a href="#reviews" class="hover:underline">Reviews</a>
+      </div>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest mb-4" style="color: var(--cream-mute);">Book</p>
+      <div class="flex flex-col gap-2 text-sm" style="color: var(--cream-soft);">
+        <a href="https://playtomic.com/clubs/the-padel-project" target="_blank" rel="noopener" class="hover:underline">Book a court</a>
+        <a href="https://wa.me/971567578646" target="_blank" rel="noopener" class="hover:underline">Book a lesson</a>
+        <a href="https://maps.app.goo.gl/4qeAhD4eZgzNvr9m8" target="_blank" rel="noopener" class="hover:underline">Get directions</a>
+      </div>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest mb-4" style="color: var(--cream-mute);">Follow</p>
+      <div class="flex flex-col gap-2 text-sm" style="color: var(--cream-soft);">
+        <a href="https://instagram.com/thepadelproject.ae" target="_blank" rel="noopener" class="hover:underline">Instagram — @thepadelproject.ae</a>
+        <a href="https://thepadelbeast.com" target="_blank" rel="noopener" class="hover:underline">Managed by Padel Beast</a>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3" style="border-top: 1px solid var(--green-line);">
+    <p class="text-xs" style="color: var(--cream-mute);">© <span id="year"></span> The Padel Project. All rights reserved.</p>
+    <p class="text-xs" style="color: var(--cream-mute);">Built with community, on court.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
