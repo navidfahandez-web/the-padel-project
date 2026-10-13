@@ -37,6 +37,11 @@
       reply: "On site: a padel-specific gym with a dedicated fitness coach, ice bath recovery, the Among the Stars coffee shop, a rooftop lounge, a pro shop managed by Padel Outlet, changing rooms, lockers, WiFi and free parking.",
     },
     {
+      keywords: ["rackety", "artificial", "camera", "stream", "record", "highlight", "report", "stats", "analytics"],
+      reply: "All 6 of our courts are equipped with Rackety AI cameras — we're the first club in the UAE with AI on every court. You can stream and record your matches, get AI highlights, and receive reports on your gameplay.",
+      link: { href: "https://rackety.tv/en", label: "Learn about Rackety" },
+    },
+    {
       keywords: ["review", "rating", "google"],
       reply: "We're rated 4.9★ from 120 Google reviews.",
       link: { href: "https://maps.app.goo.gl/4qeAhD4eZgzNvr9m8", label: "Read our Google reviews" },
